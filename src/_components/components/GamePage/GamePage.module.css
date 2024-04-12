@@ -1,0 +1,214 @@
+.mainContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #101923;
+    padding-top: 10px;
+}
+
+.innerContainer{
+    width: inherit;
+    max-width: 1450px;
+}
+
+.previousSection{
+    padding: 0px 10px;
+}
+
+.leftSideContent{
+    margin-top: 10px;
+    width: inherit;
+    background: #16202c;
+    border-radius: 6px;
+    /*width: 220px;*/
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.scoreFramSection{
+    background: #16202c;
+}
+
+.TablesSection{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.rightSideContent{
+    width: inherit;
+    /*background: #16202c;*/
+    border-radius: 6px;
+    /*width: 220px;*/
+    padding: 10px
+}
+
+.videoPlayer{
+    height: max-content;
+}
+
+.videoPlayer > iframe{
+    height: 191px;
+    border: none;
+}
+
+.categoryTitle{
+    margin-top: 10px;
+    padding: 10px;
+    color: #b6c2d0;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+}
+
+.previousTitle{
+    height: 35px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 0.9rem;
+    background: #1e2834;
+    padding: 0px 10px;
+}
+
+.heading{
+    color: #b6c2d0;
+    background-color: transparent;
+    font-size: 0.95rem;
+    line-height: 1.5;
+    font-weight: 600;
+}
+
+.customTableCell{
+    cursor: pointer;
+    padding: 0px 2px;
+    display: flex;
+    gap: 2px;
+}
+
+.customTableCell2{
+    padding: 0px 2px;
+    display: flex;
+    gap: 2px;
+    margin: auto;
+}
+
+.customTableCell3{
+    margin: auto;
+    padding: 0px 2px;
+    width: 100%;
+}
+
+.customTableCell4{
+    padding: 0px 2px;
+}
+
+.horseSubInfoBox{
+    display: flex;
+    gap: 10px;
+}
+
+.horseInfoTitle{
+    font-size: 0.7rem;
+}
+
+.infoNoteText{
+    margin-top: 20px;
+    font-size: 0.8rem;
+    color: #7e91a6;
+}
+
+.betInfoContainer{
+    position: -webkit-sticky; /* For Safari */
+    position: sticky;
+    top: 0; /* Stick the element to the top of the viewport */
+    /*z-index: 10;*/
+    box-sizing: border-box;
+}
+
+.highlight{
+    outline: 1px solid #ffebe8;
+    border-radius: 4px;
+    transition: border-color 0.5s ease;
+}
+
+@media (max-width: 1050px) {
+    .innerContainer{
+        padding: 0px 20px;
+    }
+}
+
+/*---------------------------------  Odds Table ----------------------------------*/
+.titleBox{
+    display: flex;
+    justify-content: space-between;
+    background: #16202c;
+    grid-gap: 4px;
+    padding: 12px;
+    position: relative;
+}
+
+.statusLabel{
+    position: absolute;
+    top: -9px;
+    left: 20px;
+
+    border-radius: 18px;
+    padding: 0 10px;
+    content: "LIVE";
+    font-style: italic;
+    font-size: 0.9rem;
+    display: inline-flex;
+    color: #fff;
+    height: 18px;
+    line-height: 1;
+    align-items: center;
+}
+
+.live{
+    background-color: #1fbf75;
+}
+
+.upComing{
+    background-color: #2196f3;
+}
+
+.titleGroupBox{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.title{
+    flex: 1;
+    font-size: 0.8rem;
+    color: #b6c2d0;
+    letter-spacing: 0.1em !important;
+    margin: 0;
+}
+
+.title2{
+    letter-spacing: 0.1em !important;
+    font-size: 0.7rem;
+    color: #6b7b8d;
+}
+
+/*-------------------------- Dummy Content  ------------------------------*/
+
+.subContent{
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.subContentItem{
+    padding-left: 10px;
+    display: flex;
+    gap: 10px;
+}

@@ -1,0 +1,112 @@
+.mainContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #101923;
+    padding: 20px 0px;
+}
+
+.innerContainer{
+    width: inherit;
+    max-width: 1100px;
+    margin-top: 20px;
+}
+
+.backgroundTextContainer{
+    position: relative;
+    width: 100%;
+    /*min-height: 120px;*/
+    height: 120px;
+}
+
+.backgroundTextContainer::before{
+    content: "Loading..."; /* Specify the text you want to use as the background */
+    position: absolute; /* Position the pseudo-element absolutely */
+    top: calc(50% - 0.5rem);
+    left: calc(50% - 33px);
+    z-index: 1; /* Move the pseudo-element behind the content */
+    font-size: 1rem; /* Adjust the font size as needed */
+    color: rgb(255, 249, 244); /* Set the text color */
+    pointer-events: none;
+}
+
+.imgBox{
+    display: block;
+    height: 100%;
+    background: #797e7f30;
+    z-index: 3;
+    position: inherit;
+    /*background: #13629b;*/
+}
+
+.gameName{
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    opacity: 0;
+    color: white;
+    background: black;
+    transition: 0.4s ease-out;
+    z-index: 4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    text-align: center;
+}
+
+.gameName:hover{
+    opacity: 0.8;
+}
+
+.headerBox{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.filterBox{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.header{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.filterBtn{
+    color: white;
+    cursor: pointer;
+    background: #868e96;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+
+.filterBtn:hover{
+    opacity: 0.8;
+}
+
+.activeFilterBtn{
+    background: black;
+}
+
+
+.filterBtn > div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+}

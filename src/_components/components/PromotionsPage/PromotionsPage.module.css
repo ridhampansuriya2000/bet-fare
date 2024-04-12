@@ -1,0 +1,70 @@
+.mainContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #101923;
+    padding-top: 10px;
+}
+
+.infoText{
+    font-size: 1rem;
+    color: #7e91a6;
+    line-height: 1.65;
+    margin-bottom: 30px;
+    text-align: center
+}
+
+.innerContainer{
+    width: 100%;
+    padding: 20px 0px;
+}
+
+.subNavBox{
+    max-width: 1000px;
+    margin: 0px auto 20px auto;
+    padding: 0px 15px;
+}
+
+.promotionBannerBox{
+    max-width: 1000px;
+    margin: 0px auto 40px auto;
+    padding: 0px 15px;
+}
+
+.contentBox{
+    max-width: 1000px;
+    margin: auto;
+    padding: 0px 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    z-index: 2;
+}
+
+
+.title{
+    font-size: 1.2rem;
+    color: #b6c2d0;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    margin-bottom: 8px;
+    font-family: "Poppins", sans-serif;
+}
+
+.content{
+    color: #7e91a6;
+    margin-bottom: 20px;
+    font-size: 0.9rem;
+    line-height: 1.3rem;
+    z-index: 3;
+}
+
+.rulesRegulationSection{
+    max-width: 1000px;
+    margin: auto;
+}
+
+@media (max-width: 740px) {
+
+}

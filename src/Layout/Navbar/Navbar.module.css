@@ -1,0 +1,61 @@
+.mainContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 15px;
+    background: #16202c;
+    height: 53px;
+    overflow-x: hidden;
+}
+
+.navBarBox{
+    width: 100%;
+    height: 100%;
+    max-width: fit-content;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    overflow-x: auto;
+}
+
+.navItem{
+    cursor: pointer;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.activeTab{
+    border-bottom: 2px solid #40cc40;
+}
+
+.silverItem{
+    background: linear-gradient(180deg, #5e6479 -34.21%, #fff 41.45%, rgba(0, 0, 0, 0.15) 135.56%);
+    color: #16202c !important;
+    border-radius: 19px;
+    padding: 6px 8px;
+    height: 40px;
+}
+
+.navItemText{
+    text-wrap: nowrap;
+}
+
+.navBarBox::-webkit-scrollbar {
+    width: 0;
+    display: none;
+}
+
+.navBarBox::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.navBarBox::-webkit-scrollbar-thumb {
+    background: transparent;
+}
+
+.navBarBox:hover::-webkit-scrollbar-thumb {
+    background: #888;
+}

@@ -1,0 +1,60 @@
+.mainContainer{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 50%;
+    left: 50%;
+    height: 100%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.65); /* Adjust the alpha value for transparency */
+    color: white; /* Text color */
+    font-size: 24px; /* Adjust font size as needed */
+    padding: 10px; /* Add padding for better visibility */
+}
+
+.countBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: rgba(84, 88, 98, 0.58);
+    width: 85px;
+    height: 85px;
+}
+
+.countNumber{
+    opacity: 0.2;
+    animation-name: countOpacity;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+@keyframes countOpacity {
+    0% {
+        opacity: 0.1;
+    }
+    25% {
+        opacity: 0.8;
+    }
+    50% {
+        opacity: 1;
+    }
+    75% {
+        opacity: 0.8;
+    }
+    100% {
+        opacity: 0.1;
+    }
+}
+
+@media (max-width: 540px) {
+    .mainContainer{
+        font-size: 18px;
+    }
+    .countBox{
+        width: 55px;
+        height: 55px;
+    }
+}

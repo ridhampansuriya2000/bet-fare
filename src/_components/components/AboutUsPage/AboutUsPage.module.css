@@ -1,0 +1,117 @@
+.mainContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #101923;
+    padding-top: 10px;
+}
+
+.heading2{
+    font-size: 1.9rem;
+    color: #b6c2d0;
+    font-weight: 600;
+    line-height: 1.5;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.infoText{
+    font-size: 1rem;
+    color: #7e91a6;
+    line-height: 1.65;
+    margin-bottom: 30px;
+    text-align: center
+}
+
+.innerContainer{
+    width: 100%;
+    padding: 50px 0px;
+}
+
+.contentBox{
+    max-width: 1000px;
+    margin: auto;
+    padding: 0px 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    z-index: 2;
+}
+
+.bgShadow{
+    position: relative;
+    width: 100vw;
+    z-index: 2;
+}
+
+.bgShadow::before{
+    height: 130%;
+    content: "";
+    position: absolute;
+    width: 100%;
+    top: 30%;
+    left: 0;
+    transform: skewY(-22deg);
+    background: #16202c;
+    z-index: -1;
+}
+
+.title{
+    font-size: 1.2rem;
+    color: #b6c2d0;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    margin-bottom: 8px;
+    font-family: "Poppins", sans-serif;
+}
+
+.content{
+    color: #7e91a6;
+    margin-bottom: 20px;
+    font-size: 0.9rem;
+    line-height: 1.3rem;
+    z-index: 3;
+}
+
+.paymentMethodsSection{
+    width: 100%;
+    margin: 40px 0px 100px 0px;
+    z-index: 2;
+}
+
+.gameProviderSection{
+    z-index: 2;
+}
+
+
+.socialMediaSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 7px;
+    margin-bottom: 80px;
+    z-index: 2;
+}
+
+.socialMediaBox{
+    display: flex;
+    gap: 10px;
+}
+
+
+@media (max-width: 800px) {
+    .heading2{
+        font-size: 1.1rem;
+    }
+    .infoText{
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 540px) {
+    .infoText{
+        margin-bottom: 10px;
+    }
+}

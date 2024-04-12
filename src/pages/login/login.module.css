@@ -1,0 +1,46 @@
+.mainContainer{
+    width: 100vw;
+    height: 100vh;
+    background: #16202c url("../../../public/images/sign-up-back.png");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.leftPerson{
+    position: absolute;
+    left: 0;
+    bottom: 0%;
+    width: 50%;
+    height: auto;
+    text-align: left;
+}
+
+.leftPersonImg{
+    max-width: min(100%, 249px);
+    /*max-width: calc(100% - 249px);*/
+    margin-left: 50px;
+}
+
+.rightPerson{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 50%;
+    height: auto;
+    text-align: right;
+}
+
+.rightPersonImg{
+    /*max-width: calc(100% -  544px);*/
+    max-width: min(100%, 544px);
+}
+
+.formContainer{
+    margin: 0px 25px;
+    max-width: min(85%, 550px);
+    height: min(100%, 80vh);
+    width: 550px;
+    max-height: 550px
+}

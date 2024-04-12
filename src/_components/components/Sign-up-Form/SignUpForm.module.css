@@ -1,0 +1,155 @@
+.mb20{
+    margin-bottom: 20px;
+}
+.mainContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /*justify-content: space-between;*/
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-color: #16202c;
+    background: #16202c;
+    box-shadow: 0px 40px 99px -10px rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    padding: 25px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    color: #7e91a6;
+    position: relative;
+    z-index: 2;
+    font-family: "Poppins", sans-serif;
+}
+
+.stepContentBox{
+    width: 100%;
+    padding: 20px;
+}
+
+.heading{
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    margin: 10px 0;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.subHeadingInfo{
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+}
+
+.resMsg{
+    color: #1fbf75;
+    margin: auto;
+}
+
+.infoText{
+    margin-bottom: 30px;
+}
+
+.submitBtn{
+    height: 40px;
+    width: 100%;
+    color: #ffffff;
+    background-color: #1fbf75;
+    border-radius: 6px;
+    font-size: 18px;
+    line-height: 1.438;
+    font-weight: 500;
+    margin: 10px 0;
+    border: none;
+
+}
+
+.actionTextBox{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.actionText{
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+.actionGreenText{
+    color: #1fbf75;
+    font-size: 0.8rem;
+}
+
+.otpInputBox{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.otpInput{
+    width: 55px;
+}
+
+.paymentCard{
+    background: #fff;
+    box-shadow: 0px 16px 30px rgba(0, 0, 0, 0.45);
+    border-radius: 10px;
+    /*padding: 15px 15px;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*width: 100%;*/
+    height: 100%;
+    min-height: 70px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.paymentMethodsImg{
+    margin: 0px auto 20px auto;
+    width: 160px;
+}
+
+.successIcon{
+    margin: 0px auto 10px auto;
+    width: fit-content;
+}
+
+.firstStep{
+    width: 100%;
+}
+
+@media (max-width : 785px) {
+    .mainContainer{
+        padding: 30px;
+    }
+    .otpInput{
+        width: 45px;
+    }
+}
+
+@media (max-width : 537px) {
+    .mainContainer{
+        padding: 15px;
+    }
+    .stepContentBox{
+        padding: 10px;
+    }
+    .otpInputBox{
+        gap: 6px;
+    }
+    .otpInput{
+        width: 30px;
+        height: 30px;
+    }
+}

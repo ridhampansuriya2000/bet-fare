@@ -1,0 +1,136 @@
+.mainContainer{
+    height: auto;
+    min-height: 390px;
+    background: #121d28;
+    padding: 30px 2vw;
+}
+
+.flexContainer{
+    display: flex;
+}
+
+.firstContent{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 30px;
+    flex: 1;
+    padding: 20px;
+}
+
+.firstContent > p {
+    color: #7e91a6;
+    font-weight: 400;
+    font-size: 0.8rem;
+    line-height: 1.6;
+    max-width: 260px;
+}
+
+.secondContent{
+    display: flex;
+    /*justify-content: space-between;*/
+    flex: 1;
+    padding: 20px;
+}
+
+.secondContent > div {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    flex: 1;
+}
+
+.links{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.secondContent > div > h3{
+    margin-bottom: 20px;
+}
+
+.secondContent > div > ul{
+    list-style-type: none;
+    color: #7e91a6;
+    font-weight: 300;
+    font-size: 0.8rem;
+}
+
+.thirdContent{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+    flex: 1;
+}
+
+.thirdContent > ul {
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+}
+
+.thirdContent > .disclaimer{
+    background: #16202c;
+    padding: 15px;
+    border-radius: 10px;
+    color: #7e91a6;
+    font-size: 0.8rem;
+    line-height: 1.4;
+    border: 1px solid rgba(255, 255, 255, 0.11);
+    max-width: 265px;
+}
+
+.termConditionBox{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    font-size: 0.8rem;
+}
+
+.termConditionBox :nth-child(2) > span{
+    padding: 0px 10px;
+    width: fit-content;
+}
+
+.termConditionBox :nth-child(2) :first-child{
+    border-right: 1px solid #404750;
+}
+
+
+@media (max-width: 840px) {
+    .flexContainer{
+        flex-direction: column;
+    }
+    .firstContent{
+        padding-bottom: 30px;
+        border-bottom: 1px solid #404750;
+    }
+    .secondContent{
+        padding-bottom: 30px;
+        border-bottom: 1px solid #404750;
+    }
+    .thirdContent{
+        padding-bottom: 30px;
+        border-bottom: 1px solid #404750;
+    }
+    .firstContent > p{
+        max-width: unset;
+    }
+}
+
+@media (max-width: 500px){
+    .termConditionBox{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+}
+
+@media (min-width: 841px) {
+    .termConditionBox{
+        border-top: 1px solid #404750;
+    }
+}

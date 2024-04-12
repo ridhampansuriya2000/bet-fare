@@ -1,0 +1,36 @@
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #7e91a6;
+    background: #16202c;
+    height: 35px;
+    padding: 6px;
+}
+
+.socialButton{
+    display: flex;
+    gap: 10px;
+}
+
+.supportBtn{
+    padding-right: 10px;
+    border-right: 1px solid #b6c2d0;
+}
+
+.socialLinks{
+    display: flex;
+    gap: 10px;
+}
+
+.countryBox{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.localityBox{
+    display: flex;
+    gap: 10px;
+}

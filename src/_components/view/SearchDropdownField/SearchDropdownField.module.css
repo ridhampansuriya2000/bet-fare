@@ -1,0 +1,73 @@
+.mainContainer{
+    width: 221px;
+    /*max-width: 221px;*/
+    font-size: 0.9rem;
+    height: 45px;
+}
+
+.innerContainer{
+    width: inherit;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.textField{
+    padding: 0px 10px;
+    background: #212d3b;
+    -webkit-backdrop-filter: blur(27px);
+    backdrop-filter: blur(27px);
+    border-radius: 6px;
+    border: 0;
+    font-size: 1.4rem;
+    line-height: 1.4;
+    color: #7e91a6;
+    /*margin-bottom: 20px;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textInput{
+    width: 100%;
+    height: 45px;
+    /*font-size: 20px;*/
+    background-color: inherit;
+    outline: none;
+    box-shadow: none;
+    border: none;
+    color: #7e91a6;
+}
+
+.error{
+    font-size: 0.8rem;
+    color: crimson;
+    margin-top: -5px;
+}
+
+.dropDownOptionsListBox{
+    border: 1px solid #ccc;
+    margin-top: 4px;
+    background: #fff;
+    border-radius: 4px;
+    width: inherit;
+    /*max-width: 250px;*/
+    position: relative;
+    top: 0;
+    left: 0;
+    max-height: 500px;
+    overflow-y: auto;
+    z-index: 10;
+}
+
+.dropDownOptionBox{
+    padding: 8px;
+    cursor: pointer;
+    color: black;
+}
+
+.dropDownOptionBox:hover{
+    background: blue;
+    color: white;
+}

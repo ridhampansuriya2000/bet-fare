@@ -1,0 +1,18 @@
+.mainContainer{
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+    overflow-x: auto;
+    width: fit-content;
+}
+
+.featureCard{
+    height: 180px;
+    width: 180px;
+    min-height: 180px;
+    min-width: 180px;
+}
+
+.mainContainer::-webkit-scrollbar{
+    display: none;
+}

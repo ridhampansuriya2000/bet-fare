@@ -1,0 +1,77 @@
+.mainContainer{
+    width: 100%;
+    position: relative;
+}
+
+.betListContainer{
+    margin-top: 15px;
+}
+
+.betCard{
+    padding: 15px 10px;
+    border-radius: 6px;
+    background: #16202c;
+    margin-bottom: 10px;
+}
+.betMatchTitle{
+    color: #2196f3;
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+}
+
+.marketTypeTitle{
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+}
+
+.text1{
+    font-size: 0.7rem;
+    margin-bottom: 5px;
+}
+
+.text2{
+    font-size: 0.8rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.text3{
+    font-size: 0.7rem;
+    margin-bottom: 5px;
+}
+
+.cancelBtn{
+    background: #c60f29;
+    color: white;
+    font-size: 12px;
+    cursor: pointer;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+.spaceBetween{
+    display: flex;
+    justify-content: space-between;
+}
+
+.loaderWrapper{
+    opacity: 0.4;
+}
+
+.loadingText{
+    position: absolute;
+    top: calc(50% - 10px);
+    left: calc(50% - 35px);
+    color: white;
+    opacity: 1;
+    width: 70px;
+    height: 20px;
+}
+
+.none{
+    display: none;
+}

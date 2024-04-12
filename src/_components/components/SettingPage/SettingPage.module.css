@@ -1,0 +1,31 @@
+.mainContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #101923;
+    padding: 20px 0px;
+}
+
+.innerContainer{
+    width: inherit;
+    max-width: 1000px;
+    margin-top: 20px;
+    padding: 0px 20px;
+}
+
+
+.titleBox{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #212933;
+    padding: 5px 0px;
+    margin-bottom: 10px;
+}
+
+.title{
+    letter-spacing: 0.02em;
+    color: #b6c2d0;
+    font-size: 1rem;
+    font-weight: 600;
+}

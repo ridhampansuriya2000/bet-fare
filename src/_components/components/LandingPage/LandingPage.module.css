@@ -1,0 +1,430 @@
+.mainContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #101923;
+}
+
+.heading2{
+    font-size: 1.9rem;
+    color: #b6c2d0;
+    font-weight: 600;
+    line-height: 1.5;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.infoText{
+    font-size: 1rem;
+    color: #7e91a6;
+    line-height: 1.65;
+    margin-bottom: 30px;
+    text-align: center
+}
+
+.firstContentBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    max-width: 720px;
+    padding: 100px 0px;
+    position: relative;
+    z-index: 2;
+}
+
+.sliderBox{
+    width: 100%;
+}
+
+.featureBox{
+    width: 100%;
+    max-width: 1100px;
+    height: fit-content;
+    padding: 30px 0px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    z-index: 2;
+}
+
+.cardBox{
+    width: 260px;
+    /*flex: 0 0 auto;*/
+    /*width: 25%*/
+}
+
+.secondContentBoxSection{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.secondContentBoxSection::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 167%;
+    top: -27%;
+    left: 0;
+    transform: skewY(20deg);
+    background: #16202c;
+    z-index: 1;
+}
+
+.secondContentBox{
+    width: 100%;
+    max-width: 1400px;
+    display: flex;
+    gap: 10px;
+    padding: 100px 80px;
+    z-index: 2;
+}
+
+.secondContentBox > div{
+    flex: 1;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.videoPlayer{
+    position: relative;
+}
+
+.playBtn{
+    width: 5.4vw;
+    position: absolute;
+    left: calc(50% - 2.7vw);
+    bottom: calc(50% - 2.7vw);
+}
+
+.secondContentBox > span{
+    text-align: start;
+}
+
+.thirdContentBox{
+    width: 100%;
+    max-width: 1400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    padding: 100px 80px;
+    z-index: 2;
+}
+
+.gameDetailsSlider{
+    max-width: 1100px;
+    margin: auto;
+}
+
+.sliderCard{
+    display: flex !important;
+    justify-content: center;
+}
+
+
+
+.clubLoyaltySection{
+    max-width: 1400px;
+    margin-bottom: 50px;
+    z-index: 2;
+}
+
+.clubLoyaltySection > h4{
+    font-size: 3vw;
+    text-transform: uppercase;
+    text-align: center;
+    color: #f7f8fa;
+    font-weight: 600;
+    margin-top: -4vw;
+    margin-bottom: 40px;
+}
+.clubLoyaltySection h2{
+    -webkit-text-stroke: 2px transparent;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(
+    to top,
+    rgb(16 25 35) 0%,
+    rgb(16 25 35) 50%,
+    rgb(16 25 35) 60%,
+    #1fbf75 100%
+    );
+    background-size: 200% 200%;
+    font-size: 7.5vw;
+    color: #101923;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.loyaltyCardSlider{
+    max-width: 1000px;
+    margin: auto;
+}
+
+.btnGroup{
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.downloadAppTemplate{
+    width: 100%;
+    z-index: 1;
+}
+
+.downloadAppTemplate img {
+    max-width: 100%;
+}
+
+.paymentMethodsSection{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 50px;
+    z-index: 2;
+}
+
+.paymentHeading{
+    font-size: 1.9rem;
+    color: #b6c2d0;
+    font-weight: 600;
+    line-height: 1.5;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+
+.paymentCards{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.paymentCard{
+    background: #fff;
+    box-shadow: 0px 16px 30px rgba(0, 0, 0, 0.45);
+    border-radius: 10px;
+    padding: 25px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 220px;
+}
+
+.promotionsSection{
+    position: relative;
+    width: 100%;
+}
+
+.promotionsSection::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 30%;
+    left: 0;
+    transform: skewY(-22deg);
+    background: #16202c;
+    z-index: 0;
+}
+
+.promotionsBox{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 30px;
+    z-index: 2;
+}
+
+.promotionsHeadingBox{
+    padding: 0px 20px;
+    z-index: 1;
+}
+
+.promotionsCardSlider{
+    max-width: 1100px;
+    margin: auto;
+}
+
+.gameProviderSection{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 70px;
+    z-index: 2;
+}
+
+.gameProviderSliderBox{
+    width: 80vw;
+    max-width: min(1100px,90vw);
+    margin: auto;
+    background: transparent;
+}
+
+.providerCardBox{
+    display: flex !important;
+    justify-content: center !important;
+}
+
+.providerCard{
+    width: 90%;
+    padding: 30px 20px;
+    background: #212d3b;
+    box-shadow: 0px 30px 99px rgba(0, 0, 0, 0.45);
+    border-radius: 10px;
+    height: 130px !important;
+    border: 1px solid #364352;
+}
+
+@media (max-width: 1220px) {
+    .thirdContentBox{
+        padding: 80px 60px;
+    }
+    .gameDetailsSlider{
+        max-width: 900px;
+    }
+    .promotionsCardSlider{
+        max-width: 900px;
+    }
+}
+
+@media (max-width: 1100px) {
+    .loyaltyCardSlider{
+        max-width: 650px;
+    }
+    .gameDetailsSlider{
+        max-width: 700px;
+    }
+    .promotionsCardSlider{
+        max-width: 700px;
+    }
+}
+
+@media (max-width: 880px) {
+    .thirdContentBox{
+        padding: 70px 55px;
+    }
+    .gameDetailsSlider{
+        max-width: 650px;
+    }
+    .promotionsCardSlider{
+        max-width: 650px;
+    }
+}
+
+@media (max-width: 800px) {
+    .secondContentBox{
+        padding: 30px 30px;
+    }
+    .heading2{
+        font-size: 1.1rem;
+    }
+    .infoText{
+        font-size: 0.8rem;
+    }
+
+    .clubLoyaltySection > h4{
+        font-size: 2rem;
+        margin-top: -45px;
+    }
+    .clubLoyaltySection h2{
+        font-size: 5.5rem;
+    }
+}
+
+@media (max-width: 770px) {
+    .gameDetailsSlider{
+        max-width: 450px;
+    }
+    .promotionsCardSlider{
+        max-width: 500px;
+    }
+}
+
+@media (max-width: 740px) {
+    .firstContentBox{
+        padding: 30px 30px;
+    }
+    .paymentHeading{
+        font-size: 1.3rem;
+    }
+    .paymentCard{
+        min-width: 135px;
+        padding: 15px 10px;
+    }
+    .paymentMethodsSection{
+        padding: 70px 10px;
+    }
+
+    .clubLoyaltySection > h4{
+        font-size: 1.5rem;
+        margin-top: -35px;
+    }
+    .clubLoyaltySection h2{
+        font-size: 4.5rem;
+    }
+
+    .loyaltyCardSlider{
+        max-width: 620px;
+    }
+}
+
+@media (max-width: 600px) {
+    .thirdContentBox {
+        padding: 65px 45px;
+    }
+
+    .gameDetailsSlider {
+        max-width: 330px;
+    }
+
+    .promotionsCardSlider {
+        max-width: 330px;
+    }
+}
+
+@media (max-width: 540px) {
+    .secondContentBox{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .secondContentBox > div{
+        gap: 7px;
+        width: 100%;
+    }
+    .infoText{
+        margin-bottom: 10px;
+    }
+
+    .cardBox{
+        width: 200px;
+        height: 200px;
+    }
+
+    .clubLoyaltySection > h4{
+        font-size: 1rem;
+        margin-top: -20px;
+    }
+    .clubLoyaltySection h2{
+        font-size: 2.3rem;
+    }
+    .thirdContentBox{
+        padding: 30px 30px;
+    }
+
+    .promotionsCardSlider {
+        max-width: 280px;
+    }
+}

@@ -1,0 +1,76 @@
+.mainContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #101923;
+    padding-top: 10px;
+}
+
+.innerContainer{
+    width: inherit;
+    max-width: 1200px;
+    padding: 10px;
+}
+
+.inputBox{
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+}
+
+.submitBtn{
+    height: 45px;
+    width: 100%;
+    color: #ffffff;
+    background-color: #1fbf75;
+    border-radius: 4px;
+    font-size: 15px;
+    line-height: 1.438;
+    font-weight: 500;
+    border: none;
+}
+
+.tableBox{
+    width: 100%;
+    min-height: 100px;
+    background: #1e2834;
+    border-radius: 4px;
+    /*padding: 30px;*/
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #b6c2d0;
+    font-weight: 500;
+}
+
+.successText{
+    color: #1fbf75;
+}
+
+.errorText{
+    color: red;
+}
+
+.accountInfoBox{
+    padding: 7px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.accountInfoBox > div{
+    display: flex;
+    gap: 5px;
+}
+
+.infoLable{
+    text-wrap: nowrap;
+    font-weight: bolder;
+}
+
+
+@media (max-width: 1050px) {
+    .innerContainer{
+        padding: 0px 20px;
+    }
+}

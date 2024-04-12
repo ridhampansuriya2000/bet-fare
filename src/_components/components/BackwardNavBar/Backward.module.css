@@ -1,0 +1,41 @@
+.mainContainer{
+    width: 100%;
+    background: #16202c;
+    height: max-content;
+    min-height: 35px;
+    padding: 10px;
+    /*margin: 10px 0px;*/
+}
+
+.navBox{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.cursorPointer{
+    cursor: pointer;
+}
+
+.reference{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #bdb7ff;
+    padding: 0px 8px;
+    min-width: 81px;
+    height: 28px;
+    color: #b6c2d0;
+    font-size: 0.7rem;
+    border-radius: 28px;
+    line-height: 1;
+    cursor: pointer;
+}
+
+.reference:hover{
+    background: #bdb7ff;
+    color: #fff;
+}

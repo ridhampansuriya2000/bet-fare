@@ -1,0 +1,106 @@
+.mainContainer{
+    width: 100%;
+}
+
+.headerBox{
+    background: #16202c !important;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.heading{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.timeFilterBox{
+    display: flex;
+    justify-content: flex-end;
+    background: #212d3b;
+    padding: 8px;
+    border-radius: 2px;
+}
+
+.filterItemsBox{
+    display: flex;
+    gap: 10px;
+}
+
+.filterItemBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    height: 30px;
+    padding: 8px;
+    background: #99a3ad;
+    color: black;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.activeItemBox{
+    background: #ff9421;
+}
+
+.countryFilterBox{
+    display: flex;
+    gap: 10px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    overflow-x: auto;
+}
+
+.countryFilterBox::-webkit-scrollbar {
+    width: 0;
+    display: none;
+}
+
+.countryFilterBox::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.countryFilterBox::-webkit-scrollbar-thumb {
+    background: transparent;
+}
+
+.countryFilterBox:hover::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+.countryFlagBox{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    /*box-sizing: border-box;*/
+}
+
+.countryFlagBox:hover{
+    opacity: 0.8;
+    /*border: 1px solid #3f4254;*/
+}
+
+.selectedMatch{
+    border: 1px solid #5e7085;
+}
+.countryImage{
+    width: 45px;
+    height: 20px;
+}
+
+.matchScheduleTimes{
+    display: flex;
+    gap: 5px;
+}
+
+@media (max-width: 740px) {
+    .heading{
+        font-size: 1rem;
+    }
+}

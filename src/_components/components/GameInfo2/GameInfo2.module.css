@@ -1,0 +1,122 @@
+.mainContainer{
+    width: 100%;
+}
+
+.name{
+    font-family: "Poppins", sans-serif;
+    padding: 10px 10px 0px 15px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    color: #1fbf75;
+    display: flex;
+    gap: 10px;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+.matchInfoBox{
+    margin-top: 20px;
+}
+
+.titleBox{
+    display: flex;
+    justify-content: space-between;
+    background: #16202c;
+    grid-gap: 4px;
+    padding: 12px;
+    position: relative;
+}
+
+.statusLabel{
+    position: absolute;
+    top: -9px;
+    left: 20px;
+
+    border-radius: 18px;
+    padding: 0 10px;
+    content: "LIVE";
+    font-style: italic;
+    font-size: 0.9rem;
+    display: inline-flex;
+    color: #fff;
+    height: 18px;
+    line-height: 1;
+    align-items: center;
+}
+
+.live{
+    background-color: #1fbf75;
+}
+
+.upComing{
+    background-color: #2196f3;
+}
+
+.titleGroupBox{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.title{
+    flex: 1;
+    font-size: 0.8rem;
+    color: #b6c2d0;
+    letter-spacing: 0.1em !important;
+    margin: 0;
+}
+
+.title2{
+    letter-spacing: 0.1em !important;
+    font-size: 0.7rem;
+    color: #6b7b8d;
+}
+
+.startIcon{
+    font-size: 11px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.row{
+    padding: 0px 10px;
+    height: 50px;
+    display: flex;
+    background: #212d3b;
+    align-items: center;
+    border-bottom: 1px solid #344457;
+    cursor: pointer;
+}
+
+.label{
+    font-size: 0.9rem;
+    width: 170px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.labelsBox{
+    flex: 1;
+    display: flex;
+    gap: 5px;
+    overflow-x: auto;
+}
+
+.labelsBox::-webkit-scrollbar{
+    display: none;
+}
+
+.mainContainer > div:last-child{
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-bottom: none;
+}
+
+.mainContainer > div:nth-child(2){
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}

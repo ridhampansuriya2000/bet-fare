@@ -1,0 +1,60 @@
+.mainContainer{
+    width: 100%;
+}
+
+.amountForm{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    background: #16202c;
+    box-shadow: 0px 40px 99px -10px rgba(0, 0, 0, 0.6);
+    border-radius: 6px;
+    padding: 18px;
+}
+
+.submitBtn{
+    height: 45px;
+    width: 100%;
+    color: #ffffff;
+    background-color: #1fbf75;
+    border-radius: 4px;
+    font-size: 15px;
+    line-height: 1.438;
+    font-weight: 500;
+    border: none;
+}
+
+.transferTypeInputBox{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.labelBox{
+    display: flex;
+    gap: 5px;
+}
+
+.transferTypeRadioGroupBox{
+    display: flex;
+    gap: 10px;
+}
+
+.promocodeBox{
+    display: flex;
+    align-items: flex-end;
+    gap: 10px;
+}
+
+.promocodeBtn{
+    height: 45px;
+}
+
+.errorText{
+    font-size: 0.8rem;
+    color: crimson;
+}
+
+.requireMarker{
+    color: #c60f29;
+}

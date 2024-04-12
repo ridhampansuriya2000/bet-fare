@@ -1,0 +1,73 @@
+.tableContainer > table {
+    min-width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+    width: fit-content;
+    overflow-x: auto !important;
+    font-size: 0.7rem;
+}
+
+.tableContainer > table > thead > tr {
+    background: #16202c;
+    border-radius: 6px 6px 0px 0px;
+}
+
+.tableContainer > table  th {
+    color: #e9e9e9;
+    height: 40px;
+    padding: 5px 5px;
+    font-weight: 500;
+}
+
+.tableContainer > table > thead > tr > th:first-child {
+    border-top-left-radius: 6px;
+}
+.tableContainer > table > thead > tr > th:last-child {
+    border-top-right-radius: 6px;
+}
+.tableContainer > table > tbody tr {
+    background: #16202c;
+    /*border-radius: 6px 6px 0px 0px;*/
+}
+
+.tableContainer > table > tbody > tr:last-child > td:first-child {
+    border-bottom-left-radius: 6px;
+}
+.tableContainer > table > tbody > tr:last-child > td:last-child {
+    border-bottom-right-radius: 6px;
+}
+
+.tableContainer > table tfoot {
+    text-align: left;
+    color: #1fbf75;
+    padding-top: 10px;
+    height: 50px;
+}
+
+.tableContainer > table > tbody tr {
+    color: #000;
+    background: #01af72;
+    border-bottom: 1px solid #344457;
+    height: 30px;
+    margin-top: 10px;
+
+}
+
+.tableContainer > table > tbody tr:last-child{
+    border-bottom: 0px;
+}
+
+.tableContainer > table > tbody tr > td:first-child{
+    margin-left: 10px;
+}
+
+.tableContainer{
+   overflow-x: auto;
+}
+
+
+@media (max-width: 740px) {
+    .tableContainer > table{
+        font-size: 0.5rem;
+    }
+}

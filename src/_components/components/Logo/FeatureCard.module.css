@@ -1,0 +1,10 @@
+.logoBox{
+    width: 100%;
+    max-width: 300px;
+}
+
+@media (max-width: 540px) {
+    .logoBox > img{
+        width: 100%;
+    }
+}

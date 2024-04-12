@@ -1,0 +1,31 @@
+.mainContainer > .selectInput >select {
+    background: #212D3B;
+    -webkit-backdrop-filter: blur(27px);
+    backdrop-filter: blur(27px);
+    border-radius: 6px;
+    border: 0;
+    color: #7E91A6;
+    padding: 8px 10px;
+    width: 100%;
+    outline: 0;
+    height: 45px;
+}
+.mainContainer > .selectInput >label {
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+    width: 100%;
+    color: #B6C2D0;
+    font-weight: 500;
+}
+
+.mainContainer{
+    width: 100%;
+}
+
+.selectInput{
+    width: 100%;
+    font-size: 0.9rem;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}

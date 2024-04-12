@@ -1,0 +1,63 @@
+.mainContainer{
+    width: 100%;
+    display: flex;
+    /*justify-content: center;*/
+    align-items: center;
+    background: #16202c;
+    height: 43px;
+    border-radius: 6px;
+    overflow-x: hidden;
+}
+
+.navBarBox{
+    width: 100%;
+    height: 100%;
+    max-width: fit-content;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    overflow-x: auto;
+}
+
+.navItem{
+    cursor: pointer;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.activeTab{
+    border-bottom: 2px solid #40cc40;
+}
+
+.silverItem{
+    background: #324355;
+    border-radius: 6px 0px 0px 6px;
+    color: #b6c2d0 !important;
+    padding-left: 33px;
+    padding-right: 33px
+}
+
+.navItemText{
+    text-wrap: nowrap;
+}
+
+.navBarBox::-webkit-scrollbar {
+    width: 0;
+    display: none;
+}
+
+/* Optional: style scrollbar track and handle */
+.navBarBox::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.navBarBox::-webkit-scrollbar-thumb {
+    background: transparent;
+}
+
+/* Optional: Hover style for scrollbar */
+.navBarBox:hover::-webkit-scrollbar-thumb {
+    background: #888; /* Change the color as needed */
+}

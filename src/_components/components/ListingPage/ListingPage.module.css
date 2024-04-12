@@ -1,0 +1,74 @@
+.mainContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #101923;
+    padding-top: 10px;
+}
+
+.innerContainer{
+    width: inherit;
+    max-width: 1250px;
+}
+
+.leftSideContent{
+    margin-top: 10px;
+    width: inherit;
+    background: #16202c;
+    border-radius: 6px;
+    /*width: 220px;*/
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.title{
+    padding: 0px 10px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.titleBox{
+    height: 35px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 0.9rem;
+    background: #1e2834;
+    padding: 0px 10px;
+}
+
+.rightSideContent{
+    width: inherit;
+    /*background: #16202c;*/
+    border-radius: 6px;
+    /*width: 220px;*/
+    padding: 10px
+}
+
+
+
+@media (max-width: 1050px) {
+    .innerContainer{
+        padding: 0px 20px;
+    }
+}
+
+
+/*-------------------------- Dummy Content  ------------------------------*/
+
+.subContent{
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.subContentItem{
+    padding-left: 10px;
+    display: flex;
+    gap: 10px;
+}

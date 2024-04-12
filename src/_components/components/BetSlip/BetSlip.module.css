@@ -1,0 +1,168 @@
+.mainContainer{
+    width: 100%;
+    position: relative;
+    /*background: #212d3b;*/
+    /*border-radius: 4px;*/
+    /*padding: 16px;*/
+    /*margin-top: 10px;*/
+    /*color: #7e91a6;*/
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    /*gap: 9px;*/
+}
+
+.innerContainer{
+    width: 100%;
+    background: #212d3b;
+    border-radius: 4px;
+    padding: 16px;
+    margin-top: 10px;
+    color: #7e91a6;
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+}
+
+.loaderWrapper{
+    opacity: 0.4;
+}
+
+.loadingText{
+    position: absolute;
+    top: calc(50% - 10px);
+    left: calc(50% - 35px);
+    color: white;
+    opacity: 1;
+    width: 70px;
+    height: 20px;
+}
+
+.none{
+    display: none;
+}
+
+.lightTitle2{
+    font-size: 0.7rem;
+    color: #f7f8fa;
+    font-weight: 400;
+    margin-top: 3px;
+}
+
+.title1{
+    font-size: 0.8rem;
+    color: #b6c2d0;
+    margin: 0;
+}
+
+.title2{
+    font-size: 0.7rem;
+    color: #7e91a6;
+    font-weight: 400;
+    margin-top: 3px;
+}
+
+.matchMarketDetailsBox{
+    display: flex;
+    justify-content: space-between;
+}
+
+.maxMarketCount{
+    color: #b4b4b4;
+}
+
+.stakeBox{
+    width: 100%;
+    display: flex;
+    gap: 10px;
+}
+
+.stakeBox > div{
+    width: 50%;
+}
+
+.iconSize{
+    width: 20px;
+}
+
+.greenActonText{
+    color: #1fbf75;
+    font-size: 0.75rem;
+}
+
+.spaceBetween{
+    display: flex;
+    justify-content: space-between;
+}
+
+.acceptAnyOddsBox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.lightTitle3{
+    font-size: 0.7rem;
+    color: #f7f8fa;
+    font-weight: 400;
+}
+
+.cancelBtn{
+    height: 30px;
+    width: 100%;
+    color: #ffffff;
+    background-color: #2c3b4d;
+    border-radius: 3px;
+    font-size: 12px;
+    line-height: 1.438;
+    font-weight: 500;
+    border: none;
+}
+
+.submitBtn{
+    height: 30px;
+    width: 100%;
+    color: #ffffff;
+    background-color: #1fbf75;
+    border-radius: 3px;
+    font-size: 12px;
+    line-height: 1.438;
+    font-weight: 500;
+    border: none;
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+.infoNoteText{
+    font-size: 0.9rem;
+}
+
+.oddsTypeBox{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #d9d9d9;
+    font-size: 15px;
+}
+
+.backIndicator{
+    width: 12px;
+    height: 12px;
+    background: #1fbf75;
+}
+
+.layIndicator{
+    width: 12px;
+    height: 12px;
+    background: #0d5eac;
+}
+
+.successMsgBox{
+    width: 100%;
+    padding: 8px;
+    border-radius: 4px;
+    background: #1fbf75;
+    color: white;
+}

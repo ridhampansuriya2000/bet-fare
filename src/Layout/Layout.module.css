@@ -1,0 +1,10 @@
+.mainContainer{
+    font-family: "Poppins", sans-serif;
+    width: 100vw;
+    height: 100vh;
+    overflow-y: auto;
+    background: #101923;
+    color: #b6c2d0;
+    position: relative;
+    overflow-x: hidden;
+}

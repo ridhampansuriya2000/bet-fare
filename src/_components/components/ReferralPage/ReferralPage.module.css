@@ -1,0 +1,166 @@
+.mainContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #101923;
+    padding-top: 10px;
+}
+
+.innerContainer{
+    width: inherit;
+    max-width: 1000px;
+}
+
+.refferalBannerSection{
+    margin-top: 20px;
+}
+
+
+.tableSection{
+    margin-top: 20px;
+}
+
+.AccordionContentBody{
+    padding: 0px 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.shareReferralSection{
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.flexDirectionColumn{
+    flex-direction: column !important;
+}
+
+.alignItemCenter{
+    align-items: center !important;
+}
+
+.outerBox{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    max-width: fit-content;
+    margin: auto;
+}
+
+.outerBox > div:first-child{
+    font-size: 0.8rem;
+    color: #7e91a6;
+    margin-bottom: 10px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.shareLinkBox > a{
+    font-size: 0.8rem;
+}
+
+.shareLinkBox{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    background: #212d3b;
+    -webkit-backdrop-filter: blur(27px);
+    backdrop-filter: blur(27px);
+    border-radius: 4px;
+    padding: 9px 15px;
+    font-size: 1.2rem;
+    color: #b6c2d0;
+    word-break: break-word;
+    font-weight: 500;
+}
+
+.shareIconBox{
+    display: flex;
+    gap: 10px;
+}
+
+.orTag{
+    display: inline-flex;
+    align-items: flex-end;
+    color: #5e7085;
+    font-size: 0.8rem;
+    padding-bottom: 10px;
+    font-weight: 500;
+}
+
+.refferalEarnedSection{
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+
+.refferalEarnedCard{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    background: #1b2531;
+    border-radius: 6px;
+    padding: 15px;
+    color: #5e7085;
+    margin: 20px;
+    min-width: 130px;
+    min-height: 100px;
+    font-size: 0.8rem;
+}
+
+.earnedAmountText{
+    font-size: 2rem;
+}
+
+.affiliateSection{
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.title{
+    margin: auto;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.infoText{
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: #7e91a6;
+}
+
+.AccordionContentBody {
+    font-size: 0.9rem;
+    color: #7e91a6;
+}
+
+
+@media (max-width: 1050px) {
+    .innerContainer{
+        padding: 0px 20px;
+    }
+}
+
+@media (max-width: 919px) {
+    .outerBox{
+        align-items: center;
+    }
+}

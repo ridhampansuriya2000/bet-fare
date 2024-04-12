@@ -1,0 +1,77 @@
+.mainContainer{
+    width: 100%;
+}
+
+.loyaltyCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: url(./wave-pattern.png);
+    max-width: 557px;
+    margin: 0 auto;
+    position: relative;
+    padding: 20px;
+    min-height: 215px;
+    border-radius: 8px;
+}
+
+.loyaltyCard::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    left: 0;
+    border-radius: 6px;
+    background-color: #00527b;
+    opacity: 0.97;
+}
+
+.logoWrapper{
+    position: relative;
+}
+
+.clientNameWrapper{
+    position: relative;
+}
+
+.linkStripe {
+    display: flex;
+    background: #b6c2d0;
+    margin: 0px -20px;
+    color:  #000;
+    padding: 5px 20px;
+    justify-content: flex-end;
+    font-weight: 600;
+    font-size: 0.95rem;
+    font-family: "Poppins", sans-serif;
+}
+
+.clientName {
+    font-size: 1rem;
+    color: #fff;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.logoWrapper {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    position: relative;
+    font-size: 1rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+
+@media (max-width: 1100px) {
+    .loyaltyCardSlider{
+        max-width: 650px;
+    }
+}
+
+@media (max-width: 740px) {
+    .loyaltyCardSlider{
+        max-width: 620px;
+    }
+}

@@ -1,0 +1,121 @@
+https://indianhorse.lordofdevs.com/api/event-listing/-1
+
+https://indianhorse.lordofdevs.com/api/event-details/sport_id/tournament_id/id(match_id)
+
+https://indianhorse.lordofdevs.com/api/scores-by-market
+
+Promocod,
+Banners api not work
+
+
+USERINTERACTION DETACTION,
+add background on username,
+signup error handling
+
+
+updated evo balance
+
+
+https://indianhorse.lordofdevs.com/api/get-slots
+api/load-game
+
+https://indianhorse.lordofdevs.com/api/ezugi/update-balance
+https://indianhorse.lordofdevs.com/api/load-game
+
+
+alloSignupAnd Deposit = 1 B2C
+alloSignupAnd Deposit = 0 B2B
+
+lay dissable for hourseresing got from login API
+
+Dashboard
+
+
+https://indianhorse.lordofdevs.com/api/clear-casino-session
+
+
+https://indianhorse.lordofdevs.com/img/flags/AU.png
+
+verify OTP
+https://indianhorse.lordofdevs.com/api/verify-otp
+------------------------------------------------------------------
+One Click Functionality
+user activity tracking
+casino balance transfer screen and functionality
+hours racing / Grayhound racing
+user wise show option
+promocode
+
+
+sidebar username background
+Profile Page
+
+
+
+------------------------------------------------------------------
+1) After register if user not verified, OTP screen are missing.
+2) All socket are missings
+3) Chanage password, forgot password missing : DONE
+
+Listing Page
+1) on lisitng page odds are not changing (shocket not applied yet) :
+2) Left side needs to dynamic  : Question
+3) if odd are not comming it shoould show the hyphen(-)  : Done
+4) Custom event are not showing : Question
+5) horse and greyhound complete view missing : working  (joky, trainer,age) (dissable lay : allow_betfair_hours_lay)= 0 dissable 1 enable / 150 up is disable : Done
+https://indianhorse.lordofdevs.com/api/cancel-bet (Unmatched bet / Close)
+if match is custom match and machOdds is empty then call BookMakers api and get Odds
+unmatched bet on bake
+
+Detail Page
+1) profit/loss info missing under the selection on detail page  : Done
+2) bet slip info missing  : Question (Which Info)
+3) if bookmaker and fancy not exist hide the info on detail page : Done
+4) complete info missing in unmatched bet bet slip (matchodd stake missing, cancel button missing)
+
+
+Report section
+my-deposit page only last 15 days should be shown : Done
+my-withdraw has same issue of my deposite : Done
+account-statement-detail is missing : Question (account-statement-detail/23362?game_id=20405&game_type_id=30&market_id=TOFDVJ&is_evo=0&is_ezugi=0&is_spade=0)
+Betting PL report time is not showing correct : Done
+
+Casino section
+in ezugi, evouliton point transefer screen is missing, also exposure is not set
+
+
+--------------------------------------
+if(odval > 100){
+                  _this('.lay-'+ ( parseInt(layodd.I) + 1), current_object).addClass("tr_disabled")
+                }else{
+                  _this('.lay-'+ ( parseInt(layodd.I) + 1), current_object).removeClass("tr_disabled")
+                }
+disable odds wala
+
+((Number(cosnsolidated) + ((Number(stake_val) * Number(run)) - Number(stake_val))))
+((Number(cosnsolidated) - ((Number(stake_val) * Number(run)) - Number(stake_val))));
+
+jo apko show karwa rahi hoon expousre under name
+
+
+in ezugi, evouliton point transefer screen is missing, also exposure is not set
+
+
+
+
+bet place
+is_sky -> horse
+
+in ezugi, evouliton point transefer screen is missing, also exposure is not set
+
+https://b2c.lordofdevs.com/img/evo-slots/Red%20Tiger/10001nights00000.png : done
+https://react-fairplay-jan-2024.vercel.app/my-bets (filter) : Done
+
+auto logout
+https://react-fairplay-jan-2024.vercel.app/deposit-page (Balance) : Done
+profite/loss account statement WIN / profite-loss color : Done
+
+deposit type list / deposit-page : Done
+
+path dynamic
+search : Done

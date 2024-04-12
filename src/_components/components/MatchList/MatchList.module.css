@@ -1,0 +1,36 @@
+.mainContainer{
+    width: 100%;
+    color: #5a6978;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.name{
+    height: 38px;
+    background: #1a2633;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #b6c2d0;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding: 0px 15px;
+}
+
+.matchTitleBox{
+    width: 100%;
+    border-bottom: 1px solid rgba(52, 68, 87, 0.5);
+}
+
+.matchTitle{
+    display: flex;
+    align-items: center;
+    height: 52px;
+    white-space: nowrap;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 0px 10px;
+    font-size: 0.9rem;
+}

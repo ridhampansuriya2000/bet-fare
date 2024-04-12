@@ -1,0 +1,12 @@
+.mainContainer{
+    width: 100%;
+    min-height: 750px;
+}
+
+.errorText{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: #c60f29;
+}

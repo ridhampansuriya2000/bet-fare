@@ -1,0 +1,75 @@
+.mainContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #101923;
+    padding-top: 10px;
+}
+
+.innerContainer{
+    width: inherit;
+    max-width: 1000px;
+}
+
+.profileBox{
+    display: flex;
+    justify-content: center;
+}
+
+.btnBox{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.submitBtn{
+    padding: 0px 10px;
+    height: 40px;
+    width: fit-content;
+    color: #ffffff;
+    background-color: #1fbf75;
+    border-radius: 4px;
+    font-size: 15px;
+    line-height: 1.438;
+    font-weight: 500;
+    border: none;
+}
+
+.giftCardBox{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.conditionsSection{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.conditionsBox{
+    background: #16212f;
+    box-shadow: 0px 40px 99px -10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 30px 25px
+}
+
+.heading{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.title{
+    color: #b6c2d0;
+    font-size: 1rem;
+}
+
+@media (max-width: 1050px) {
+    .innerContainer{
+        padding: 0px 20px;
+    }
+}

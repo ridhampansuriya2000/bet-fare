@@ -1,0 +1,19 @@
+.mainContainer{
+    width: max-content;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+
+}
+
+.iconLogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: white;
+    background: #3e4f62;
+    cursor: pointer;
+}

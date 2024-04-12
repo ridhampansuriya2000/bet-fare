@@ -1,0 +1,34 @@
+.mainContainer{
+    width: 100%;
+}
+
+.header{
+    background: #223246;
+    padding: 10px 10px 10px 15px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    color: #b6c2d0;
+    display: flex;
+    gap: 10px;
+    font-size: 0.9rem;
+}
+
+.titleBox{
+    display: flex;
+    justify-content: space-between;
+    grid-gap: 4px;
+    padding: 10px;
+}
+
+.title{
+    flex: 1;
+    font-size: 0.8rem;
+    color: #6b7b8d;
+    letter-spacing: 0.1em !important;
+    margin: 0;
+}
+
+.startIcon{
+    color: #fadb00;
+    font-size: 11px;
+}

@@ -1,0 +1,112 @@
+/* Accordion container styles */
+.accordion {
+    width: 100%;
+    margin: 20px auto;
+}
+
+/* Accordion item styles */
+.accordionItem {
+    /*border-bottom: 1px solid #253242;*/
+    margin-bottom: 5px;
+    overflow: hidden;
+}
+
+/* Accordion header styles */
+.accordionHeader {
+    /*background-color: #101923;*/
+    background-color: #212d3b;
+    border-radius: 4px;
+    padding: 10px;
+    cursor: pointer;
+    user-select: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Accordion content styles */
+.accordionContent {
+    height: 0;
+    overflow: hidden;
+    transition: height 0.3s ease-out;
+}
+
+/* Arrow icon styles */
+.arrow {
+    display: flex;
+    align-items: center;
+    transition: transform 0.3s ease-out;
+}
+
+/* Open state styles for accordion content */
+.open .accordionContent {
+    /*height: 100px; !* Adjust as needed *!*/
+    height: auto;
+    min-height: fit-content;
+    transition: height 0.3s ease-in; /* Add this line for the transition */
+}
+
+/* Open state styles for arrow icon */
+.open .arrow {
+    transform: rotate(0deg);
+}
+
+
+
+
+/* Accordion container styles */
+.subAccordion {
+    box-sizing: border-box;
+    height: fit-content;
+    width: 100%;
+    margin: 20px auto;
+}
+
+/* Accordion item styles */
+.subAccordionItem {
+    height: fit-content;
+    border-bottom: 1px solid #253242;;
+    margin-bottom: 5px;
+    overflow: hidden;
+}
+
+/* Accordion header styles */
+.subAccordionHeader {
+    background-color: #101923;
+    /*background-color: #3a3c43;*/
+    border-radius: 4px;
+    padding: 10px;
+    cursor: pointer;
+    user-select: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Accordion content styles */
+.subAccordionContent {
+    height: 0;
+    overflow: hidden;
+    transition: height 0.3s ease-out;
+}
+
+/* Arrow icon styles */
+.subArrow {
+    display: flex;
+    align-items: center;
+    transition: transform 0.3s ease-out;
+}
+
+/* Open state styles for accordion content */
+.subOpen .subAccordionContent {
+    height: 100px; /* Adjust as needed */
+    max-height: fit-content;
+    transition: height 0.3s ease-in; /* Add this line for the transition */
+}
+
+/* Open state styles for arrow icon */
+.subOpen .subArrow {
+    transform: rotate(0deg);
+}
+
+

@@ -1,0 +1,208 @@
+.mainContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #101923;
+    padding-top: 10px;
+}
+
+.infoText{
+    font-size: 1rem;
+    color: #7e91a6;
+    line-height: 1.65;
+    margin-bottom: 30px;
+    text-align: center
+}
+
+.innerContainer{
+    width: 100%;
+    padding: 20px 0px;
+}
+
+.rulesRegulationSection{
+    max-width: 1000px;
+    margin: auto;
+}
+
+/*.contentBox{*/
+/*    max-width: 1000px;*/
+/*    margin: auto;*/
+/*    padding: 0px 15px;*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    gap: 7px;*/
+/*    z-index: 2;*/
+/*}*/
+
+
+/*.title{*/
+/*    font-size: 1.2rem;*/
+/*    color: #b6c2d0;*/
+/*    font-weight: 600;*/
+/*    letter-spacing: 0.02em;*/
+/*    margin-bottom: 8px;*/
+/*    font-family: "Poppins", sans-serif;*/
+/*}*/
+
+.heading{
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: auto;
+    width: fit-content;
+}
+
+/*.content{*/
+/*    color: #7e91a6;*/
+/*    margin-bottom: 20px;*/
+/*    font-size: 0.9rem;*/
+/*    line-height: 1.3rem;*/
+/*    z-index: 3;*/
+/*}*/
+
+.loyaltyCardSlider{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.turnoverAchievementSection{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.turnoverAchievementBox{
+    margin: 0px 20px;
+    width: 100%;
+}
+
+.currentPackage{
+    height: 220px;
+    width: 100%;
+    max-width: 1250px;
+    background: #16212f;
+    box-shadow: 0px 40px 99px -10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin: 30px auto;
+    padding: 25px 30px;
+}
+
+.packTimeline > ul > li::marker{
+    list-style-type: none;
+}
+
+.currentPackage ul.packTimeline {
+    display: flex;
+    position: relative;
+}
+.currentPackage ul.packTimeline::before {
+    content: "";
+    position: absolute;
+    top: 10px;
+    background: #334050;
+    width: calc(100% - 120px);
+    height: 3px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.currentPackage ul.packTimeline li {
+    position: relative;
+    text-align: center;
+    padding: 30px 0px 0 0px;
+    letter-spacing: 0.01em;
+}
+
+.currentPackage ul.packTimeline li::marker {
+    list-style-type: none;
+}
+
+.currentPackage ul.packTimeline li.silverPack .packInner::after {
+    background-color: #7e91a6;
+}
+.currentPackage ul.packTimeline li.silverPack .packInner::before {
+    color: #7e91a6;
+    border-color: #7e91a6;
+}
+.currentPackage ul.packTimeline li.goldPack .packInner::after {
+    background-color: #edd683;
+}
+.currentPackage ul.packTimeline li.goldPack .packInner::before {
+    color: #edd683;
+    border-color: #edd683;
+}
+.currentPackage ul.packTimeline li.platinumPack {
+    flex: auto;
+    text-align: right;
+    display: flex;
+}
+.currentPackage ul.packTimeline li.platinumPack .packInner::after {
+    background-color: #fff;
+}
+.currentPackage ul.packTimeline li.platinumPack .packInner::before {
+    color: #fff;
+    border-color: #fff;
+}
+.currentPackage ul.packTimeline li .packInner {
+    display: inline-block;
+    padding: 0 15px;
+    margin-left: auto;
+    margin-right: -15px;
+    position: relative;
+}
+.currentPackage ul.packTimeline li .packInner::after {
+    content: "";
+    position: absolute;
+    height: 11px;
+    width: 11px;
+    border-radius: 50%;
+    background: #005077;
+    top: -1.5rem;
+    left: 0.03em;
+    right: 0;
+    margin: auto;
+}
+.currentPackage ul.packTimeline li .packInner::before {
+    content: "";
+    position: absolute;
+    height: 17px;
+    width: 17px;
+    border-radius: 50%;
+    border: 1px solid #005077;
+    top: -1.8rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+    line-height: 1;
+    background: #16212f;
+}
+.currentPackage ul.packTimeline li .packInner .packName {
+    display: block;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    color: #e7e7e7;
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+}
+.currentPackage ul.packTimeline li .packInner .turnover {
+    color: #7e91a6;
+    margin-top: 10px;
+    font-size: 0.9rem;
+}
+
+.cardSection{
+    margin-bottom: 50px;
+    padding: 20px;
+}
+
+@media (max-width: 374px) {
+    .currentPackage ul.packTimeline li .packInner {
+        font-size: 8px;
+    }
+    .currentPackage {
+        padding: 25px 5px;
+    }
+}
